@@ -12,7 +12,7 @@ class SegundaPantalla : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_segunda_pantalla)
 
-        val btnRegresar = findViewById<Button>(R.id.button)
+        val btnRegresar = findViewById<Button>(R.id.btRegresar)
 
         btnRegresar.setOnClickListener {
             finish()
